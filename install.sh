@@ -1462,7 +1462,7 @@ server {
     server_name           serveraddr.com;
     index index.html index.htm;
     root /index.html;
-    error_page 404 https://persianedd.ir/;
+    error_page 404 https://c.persianedd.ir/;
     ssl_session_cache shared:SSL:10m;
     ssl_session_timeout 1d;
     ssl_session_tickets off;
@@ -1530,7 +1530,7 @@ server {
     real_ip_recursive   on;
     add_header Strict-Transport-Security "max-age=63072000" always;
     root /403.html;
-    error_page 403 https://persianedd.ir/;
+    error_page 404 https://c.persianedd.ir/;
 
     location /
     {
